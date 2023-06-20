@@ -1,12 +1,9 @@
-.hero-container {
-    min-height: 60vh;
+.hero-container { 
     width: 80%;
-    border: solid black;
     margin: auto;
-    margin-top: 1%;
     display: flex; 
-    align-items: center;
-    justify-content: space-between;   
+    align-items: flex-start;
+    justify-content: space-between;  
 }
 
 .hero-img {
@@ -23,9 +20,108 @@
     color: var(--green);
     font-size: 4rem;
     font-family: cursive;
+    line-height: 4rem;
+
+}
+
+.hero-second-txt {
+    margin-top: 1.5rem;
 }
 
 .companies-trust {
-    border: solid navy;
     display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.companies-trust p {
+    color: rgb(151, 151, 151);
+}
+.companies {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3%;
+}
+
+.companies img {
+    margin-right: 5%;
+}
+.bissel {
+    width: 40px;
+}
+
+.call-to-action {
+    background-color: var(--green);
+    display: inline-block;
+    margin-top: 5%;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 100vmax;
+    font-size: 0.8rem;
+    font-weight: 600;
+    
+}
+
+.sign-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    height: 60vh;
+    align-items: flex-start;
+}
+
+.sign-img {
+    width: 41%;
+}
+.sign-img img {
+max-width: 100%;
+}
+
+.sign-lists ul {
+    list-style-position: inside;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0 0 20px;
+
+}
+
+.sign-master-li {
+    list-style-type: armenian;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+
+.sign-master-li > ul {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.sign-lists p {
+    margin: 0px 0 0 20px;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.sign-link {
+    display: flex;
+
+}
+.sign-link p {
+    font-size: 0.8rem;
+    border: solid var(--green);
+    border-radius: 1vmax;
+    padding: 5px 10px;
+}
+
+.p-1 {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.p-2 {
+color: var(--green);
 }

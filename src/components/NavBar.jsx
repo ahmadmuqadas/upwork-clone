@@ -1,14 +1,30 @@
-import React from 'react'
+import { useState } from 'react'
 import logo from '../images/logo.png'
 import './styles/navbar.css'
 const NavBar = () => {
+
+    const [hide, setHide] = useState(true)
+
+    const showHiddenLink = () => {
+       setHide(!hide)
+    }
+
+    const hiddenStyle = {
+        display: hide ?  'none' : 'block'
+    }
+
+    const hideLink = () => {
+        setHide(!hide)
+    }
+ 
   return (
     <nav className='nav'>
 <div className='main-nav'>
     
+    <div className="hidde-links" style={hiddenStyle}></div>
     <ul className='lists'>
     <img src={logo} className='logo' alt="logo" />
-        <li>Find Talent</li>
+        <li onMouseEnter={showHiddenLink} onMouseLeave={hideLink}>Find Talent <span className='link-arrow'><p>C</p></span></li>
         <li>Find Work</li>
         <li>Why Upwork</li>
         <li>Enterprise</li>
