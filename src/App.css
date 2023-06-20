@@ -5,3 +5,11 @@
   list-style-type: none;
   
 }
+:root {
+  --green-hover: #14A800;
+  --green: rgb(16, 138, 0);
+}
+
+.container {
+  height: 2000px;
+}

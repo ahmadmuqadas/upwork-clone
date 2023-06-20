@@ -1,0 +1,31 @@
+.hero-container {
+    min-height: 60vh;
+    width: 80%;
+    border: solid black;
+    margin: auto;
+    margin-top: 1%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.globe {
+    width: 50%;
+    
+}
+
+.hero-first-txt {
+    color: var(--green);
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.companies-trust {
+    border: solid navy;
+    display: flex;
+}
