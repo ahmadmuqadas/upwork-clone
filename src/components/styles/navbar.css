@@ -1,0 +1,36 @@
+
+.main-nav, ul, .search-bar, .inputs  {
+    display: flex;
+    font-size: 0.9rem;
+}
+.main-nav {
+    border-bottom: solid rgb(184, 176, 176) 0.5px;
+    padding: 0 1%;
+    min-height: 10vh;
+    align-items: center;
+}
+
+.logo {
+    height: 2rem;
+    margin-right: 3%;
+}
+
+.lists {
+    width: 25%;
+    justify-content: space-between;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+/* temp */
+
+.main-nav > div, ul, img {
+    border: solid red 0.5px;
+}
+
+.logs li {
+    margin:  0 5%;
+}
